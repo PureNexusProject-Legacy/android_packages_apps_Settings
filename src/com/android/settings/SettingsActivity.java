@@ -131,6 +131,7 @@ import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 import com.pure.settings.PureSettings;
+import com.pure.settings.fragments.HeadsUpSettings;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -360,7 +361,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             PureSettings.class.getName(),
             AmbientSettings.class.getName(),
             DisplayRotation.class.getName(),
-            ExpandedDesktopPreferenceFragment.class.getName()
+            ExpandedDesktopPreferenceFragment.class.getName(),
+            HeadsUpSettings.class.getName()
     };
 
 
