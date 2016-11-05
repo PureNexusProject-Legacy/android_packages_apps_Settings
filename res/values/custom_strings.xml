@@ -37,6 +37,59 @@
     <string name="local_backup_password_title">Desktop backup password</string>
 
 <!-- Device Info Settings -->
+    <!-- PureNexus about -->
+    <string name="nexus_about">PureNexus info</string>
+    <string name="nexus_about_summary">Updates, useful links, developers and contributors</string>
+    <string name="nexus_useful">Useful links</string>
+    <!-- update notifications -->
+    <string name="nexus_updates">PureNexus update notifications</string>
+    <string name="update_dialog">Pick your notification service</string>
+    <string name="pushbullet">Pushbullet</string>
+    <string name="telegram_chan">Telegram Channel</string>
+    <string name="gplus_collection">Google+ collection</string>
+    <!-- social media -->
+    <string name="nexus_social">PureNexus on social media</string>
+    <string name="social_dialog">Follow PureNexus on social media</string>
+    <string name="gplus_community">Google+ community</string>
+    <string name="reddit">PureNexus subreddit</string>
+    <string name="telegram_chat">PureNexus telegram chat</string>
+    <!-- github -->
+    <string name="nexus_github">PureNexus GitHub Source</string>
+    <!-- donations -->
+    <string name="nexus_donate">Donate to support development</string>
+    <!-- developer/contributors -->
+    <string name="lead_dev">Lead Developer</string>
+    <string name="contributors">Team members</string>
+    <!-- nate -->
+    <string name="nate">BeansTown106</string>
+    <string name="nate_sum">PureNexus Project Owner/maintainer</string>
+    <string name="nate_dialog">Follow BeansTown106</string>
+    <!-- dwitherell -->
+    <string name="devon">Dwitherell</string>
+    <string name="devon_sum">Coder/FiSwitch developer</string>
+    <string name="devon_dialog">Follow Dwitherell</string>
+    <!-- nathan -->
+    <string name="nathan">Nathan Chancellor</string>
+    <string name="nathan_sum">Support/Flash kernel developer</string>
+    <string name="nathan_dialog">Follow NathanChance</string>
+    <!-- davey -->
+    <string name="davey">DaveyAnnihalation</string>
+    <string name="davey_sum">Graphics/Domination themer</string>
+    <string name="davey_dialog">Follow DaveyAnnihalation</string>
+    <!-- surge -->
+    <string name="surge">Surge1223</string>
+    <string name="surge_sum">Tweaks/Substratum developer</string>
+    <string name="surge_dialog">Follow Surge1223</string>
+    <!-- bajasur -->
+    <string name="bajasur">Bajasur</string>
+    <string name="bajasur_sum">Tweaks/Phone connoisseur</string>
+    <string name="bajasur_dialog">Follow Bajasur</string>
+    <!-- possible profiles -->
+    <string name="gplus">Google+</string>
+    <string name="play_store">Play store</string>
+    <string name="twitter">Twitter</string>
+    <string name="xda">XDA-Developers</string>
+
     <!-- Rom version -->
     <string name="rom_version">PureNexus version</string>
     <string name="rom_version_default">Unknown</string>

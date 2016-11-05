@@ -73,4 +73,60 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <!-- update notifications -->
+    <string-array name="update_entries">
+        <item>@string/pushbullet</item>
+        <item>@string/telegram_chan</item>
+        <item>@string/gplus_collection</item>
+    </string-array>
+
+    <!-- social media -->
+    <string-array name="social_entries">
+        <item>@string/gplus_community</item>
+        <item>@string/reddit</item>
+        <item>@string/telegram_chat</item>
+    </string-array>
+
+    <!-- beanstowns profiles -->
+    <string-array name="nate_entries">
+        <item>@string/gplus</item>
+        <item>@string/twitter</item>
+        <item>@string/xda</item>
+    </string-array>
+
+    <!-- dwitherell profiles -->
+    <string-array name="dev_entries">
+        <item>@string/gplus</item>
+        <item>@string/play_store</item>
+        <item>@string/twitter</item>
+        <item>@string/xda</item>
+    </string-array>
+
+    <!-- nathan profiles -->
+    <string-array name="nathan_entries">
+        <item>@string/gplus</item>
+        <item>@string/xda</item>
+    </string-array>
+
+    <!-- davey profiles -->
+    <string-array name="davey_entries">
+        <item>@string/gplus</item>
+        <item>@string/play_store</item>
+        <item>@string/twitter</item>
+        <item>@string/xda</item>
+    </string-array>
+
+    <!-- surge profiles -->
+    <string-array name="surge_entries">
+        <item>@string/gplus</item>
+        <item>@string/xda</item>
+    </string-array>
+
+    <!-- bajasur profiles -->
+    <string-array name="bajasur_entries">
+        <item>@string/gplus</item>
+        <item>@string/twitter</item>
+        <item>@string/xda</item>
+    </string-array>
 </resources>

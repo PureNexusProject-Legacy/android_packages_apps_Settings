@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!-- Links -->
+    <PreferenceCategory
+        android:key="useful"
+        android:title="@string/nexus_useful">
+
+        <Preference
+            android:key="updates"
+            android:icon="@drawable/ic_update"
+            android:title="@string/nexus_updates" />
+
+        <Preference
+            android:key="social"
+            android:icon="@drawable/ic_social"
+            android:title="@string/nexus_social" />
+
+        <Preference
+            android:key="donate"
+            android:icon="@drawable/ic_donate"
+            android:title="@string/nexus_donate">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://forum.xda-developers.com/donatetome.php?u=4395895" />
+        </Preference>
+
+        <Preference
+            android:key="github"
+            android:icon="@drawable/ic_github"
+            android:title="@string/nexus_github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/PureNexusProject" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <!-- Developer -->
+    <PreferenceCategory
+        android:key="developers"
+        android:title="@string/lead_dev">
+
+        <Preference
+            android:key="nate"
+            android:icon="@drawable/ic_nate"
+            android:title="@string/nate"
+            android:summary="@string/nate_sum"/>
+
+    </PreferenceCategory>
+
+    <!-- Contributors -->
+    <PreferenceCategory
+        android:key="contributors"
+        android:title="@string/contributors">
+
+        <Preference
+            android:key="devon"
+            android:icon="@drawable/ic_devon"
+            android:title="@string/devon"
+            android:summary="@string/devon_sum"/>
+    
+        <Preference
+            android:key="nathan"
+            android:icon="@drawable/ic_nathan"
+            android:title="@string/nathan"
+            android:summary="@string/nathan_sum"/>
+	    
+        <Preference
+            android:key="davey"
+            android:icon="@drawable/ic_davey"
+            android:title="@string/davey"
+            android:summary="@string/davey_sum"/>
+
+        <Preference
+            android:key="surge"
+            android:icon="@drawable/ic_surge"
+            android:title="@string/surge"
+            android:summary="@string/surge_sum"/>
+
+        <Preference
+            android:key="bajasur"
+            android:icon="@drawable/ic_bajasur"
+            android:title="@string/bajasur"
+            android:summary="@string/bajasur_sum" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
